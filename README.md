@@ -1,6 +1,6 @@
 # Sobre o projeto
 
-API REST feita para o teste técnico de uma vaga backend.
+API REST feito para o teste técnico de uma vaga backend.
 
 # Tecnologias, frameworks e bibliotecas utilizadas
 - TypeScript
