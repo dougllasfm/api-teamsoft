@@ -11,8 +11,8 @@ describe("crud customer", () => {
       .post("/createCustomer")
       .send({
         cnpj: "125.154.788.999",
-        corporateName: "certo",
-        nameContact: "douglasssssss",
+        corporateName: "Teste ltda",
+        nameContact: "douglas munaro",
         telephone: "996152628",
         address: [
           {
@@ -65,8 +65,8 @@ describe("crud customer", () => {
       .put("/update")
       .send({
         cnpj: "125.154.788.999",
-        corporateName: "certo",
-        nameContact: "douglasssssss",
+        corporateName: "newCorporate",
+        nameContact: "teste",
         telephone: "996152628",
       })
       .query({ id: 1 });
@@ -79,8 +79,8 @@ describe("crud customer", () => {
       .post("/createCustomer")
       .send({
         cnpj: "",
-        corporateName: "certo",
-        nameContact: "douglasssssss",
+        corporateName: "teste",
+        nameContact: "contact",
         telephone: "996152628",
         address: [
           {
